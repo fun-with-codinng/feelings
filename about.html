@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Feelings Gift Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-hero {
+            background: var(--gold-gradient-soft);
+            padding: var(--space-16) 0;
+            text-align: center;
+        }
+        .page-title {
+            font-family: var(--font-display);
+            font-size: var(--text-5xl);
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+        }
+        .page-subtitle {
+            font-size: var(--text-lg);
+            color: var(--text-secondary);
+        }
+        .page-content {
+            padding: var(--space-16) 0;
+            background: var(--white);
+        }
+        .content-card {
+            background: var(--glass-white);
+            backdrop-filter: blur(20px);
+            border-radius: var(--radius-2xl);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: var(--shadow-xl);
+            padding: var(--space-12);
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-12);
+            align-items: center;
+        }
+        .about-image {
+            width: 100%;
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow-lg);
+        }
+        .about-text h2 {
+            font-family: var(--font-display);
+            font-size: var(--text-3xl);
+            color: var(--text-primary);
+            margin-bottom: var(--space-6);
+        }
+        .about-text p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--space-4);
+        }
+        .values-section {
+            margin-top: var(--space-12);
+            padding-top: var(--space-12);
+            border-top: 1px solid var(--sand);
+        }
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-8);
+            margin-top: var(--space-8);
+        }
+        .value-card {
+            text-align: center;
+            padding: var(--space-6);
+            background: var(--cream);
+            border-radius: var(--radius-xl);
+            transition: transform var(--transition-bounce);
+        }
+        .value-card:hover {
+            transform: translateY(-5px);
+        }
+        .value-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--gold-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto var(--space-4);
+            color: var(--text-on-gold);
+            font-size: 24px;
+        }
+        .value-card h3 {
+            font-family: var(--font-display);
+            font-size: var(--text-xl);
+            color: var(--text-primary);
+            margin-bottom: var(--space-2);
+        }
+        .value-card p {
+            font-size: var(--text-sm);
+            color: var(--text-secondary);
+        }
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+            .page-title {
+                font-size: var(--text-4xl);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <h1>Feelings Gift Shop</h1>
+                    <img class="nav-logo" src="img/feelings.png" alt="Feelings Gift Shop Logo">
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#products" class="nav-link">Products</a>
+                    <a href="about.html" class="nav-link active">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="gold-divider"></div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">About Us</h1>
+            <p class="page-subtitle">Your Trusted Partner in Event Decoration</p>
+        </div>
+    </section>
+    <div class="gold-divider"></div>
+
+    <!-- Page Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-card">
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <img src="img/feelings-about.webp" alt="Feelings Gift Shop Store" class="about-image">
+                    </div>
+                    <div class="about-text">
+                        <h2>Welcome to Feelings Gift Shop</h2>
+                        <p>
+                            Founded with a passion for making celebrations memorable, Feelings Gift Shop has grown to become India's trusted wholesaler and manufacturer of premium event decoration items.
+                        </p>
+                        <p>
+                            Based in Neemuch, Madhya Pradesh, we specialize in providing high-quality decoration supplies for weddings, birthdays, anniversaries, corporate events, and all special occasions. Our extensive catalog features everything from elegant balloons and banners to stunning centerpieces and themed decorations.
+                        </p>
+                        <p>
+                            We take pride in offering competitive wholesale prices without compromising on quality. Whether you're an event planner, retailer, or decorator, we're here to help you create magical moments for your clients.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="values-section">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <h3>Premium Quality</h3>
+                            <p>We source and manufacture only the finest decoration items that meet international quality standards.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                            <h3>Wholesale Prices</h3>
+                            <p>Get the best deals with our competitive wholesale pricing designed for bulk buyers and resellers.</p>
+                        </div>
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-truck-fast"></i>
+                            </div>
+                            <h3>Fast Dispatch</h3>
+                            <p>Quick order processing and reliable shipping to ensure your decorations arrive on time.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="gold-divider"></div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-brand">
+            <a href="index.html">
+                <img src="img/feelings.png" alt="Feelings Gift Shop" class="footer-logo-img">
+            </a>
+            <p class="footer-tagline">Wholesaler & Manufacturer of Event Decoration Items</p>
+        </div>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    <li><a href="return-exchange-policy.html">Return & Exchange Policy</a></li>
+                    <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>CONTACT US</h4>
+                <p>
+                    <strong>Address</strong>
+                    Feelings gift shop, platinum square near hdfc bank,<br>
+                    Neemuch - 458441, Madhya Pradesh, India
+                </p>
+                <p>
+                    <strong>Phone</strong>
+                    <a href="tel:+919039540994">+91 9039540994</a><br>
+                    <a href="tel:+919340014770">+91 9340014770</a>
+                </p>
+                <p>
+                    <strong>Email</strong>
+                    <a href="mailto:feelingsgiftsshop@gmail.com">feelingsgiftsshop@gmail.com</a>
+                </p>
+            </div>
+            <div class="footer-column">
+                <h4>FOLLOW US</h4>
+                <div class="social-icons">
+                    <a href="#" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://wa.me/919039540994" class="whatsapp" title="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Feelings Gift Shop. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
