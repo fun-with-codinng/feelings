@@ -1923,6 +1923,10 @@ h1 {
     background: linear-gradient(135deg, var(--whatsapp-green) 0%, var(--whatsapp-dark) 100%);
 }
 
+.location {
+    background: linear-gradient(135deg, #EA4335 0%, #C5221F 100%);
+}
+
 /* Footer Bottom */
 .footer-bottom {
     text-align: center;
